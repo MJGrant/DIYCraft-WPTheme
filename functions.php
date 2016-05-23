@@ -5,6 +5,7 @@ require_once( get_template_directory() . '/lib/init.php' );
 // Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'DIYCraftPhotography Theme' ); /*Genesis Sample Theme*/
 define( 'CHILD_THEME_URL', 'http://www.diycraftphotography.com' );
+
 // Add Viewport meta tag for mobile browsers
 add_action( 'genesis_meta', 'sample_viewport_meta_tag' );
 function sample_viewport_meta_tag() {
@@ -99,20 +100,21 @@ function child_read_more_link() {
     return '... <br/><br/><a class="more-link" href="' . get_permalink() . '" rel="nofollow">{Read More}</a>';
 }
 
-/* Adding AmazonCPM (with Adsense fallback) to the bottom of every post */
+/* Adding AdSense to the bottom of every post */
 add_filter( 'the_content', 'my_content_filter' );
 
 function my_content_filter( $content ) {
    if ( is_single() || is_page() ) {
       $content .= '
-      <script type="text/javascript" language="javascript" src="//c.amazon-adsystem.com/aax2/getads.js"></script>
-      <script type="text/javascript" language="javascript">
-      //<![CDATA[
-      aax_getad_mpb({
-        "slot_uuid":"136af383-3ab5-4b1c-81a4-242328e493fe"
-      });
-      //]]>
-      </script><br>';
+      		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- DIYCraft_PostEnd -->
+			<ins class="adsbygoogle"
+			     style="display:inline-block;width:728px;height:90px"
+			     data-ad-client="ca-pub-1407541373557710"
+			     data-ad-slot="2950187989"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script><br>';
    }
    return $content;
 }
@@ -166,10 +168,3 @@ add_filter( 'genesis_search_text', 'custom_search_text' );
 function custom_search_text($text) {
     return esc_attr( 'Search DIYCraftPhotography...' );
 }
-
-// Add affiliate disclosure to the end of every post
-add_action('genesis_entry_footer', 'custom_include_disclosure', 1); 
-function custom_include_disclosure() {
-    if(is_single()) { ?>
-    <p><em>Some links in this article are Amazon Affiliate links. Read DIYCraftPhotography's <a href="http://diycraftphotography.com/affiliate-disclosure/">full disclosure here</a>.</em></p>
-<?php }}

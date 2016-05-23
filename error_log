@@ -1,0 +1,2 @@
+[01-Mar-2016 03:18:41 America/Los_Angeles] PHP Fatal error:  Call to undefined function get_template_directory() in /home/majoh2/public_html/DIYcraftphotography.com/wp-content/themes/diycraftphotographytheme/functions.php on line 3
+[13-Mar-2016 03:29:01 America/Los_Angeles] PHP Fatal error:  Call to undefined function get_template_directory() in /home/majoh2/public_html/DIYcraftphotography.com/wp-content/themes/diycraftphotographytheme/functions.php on line 3
