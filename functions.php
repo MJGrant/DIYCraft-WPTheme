@@ -4,12 +4,12 @@ require_once( get_template_directory() . '/lib/init.php' );
 
 // Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'DIYCraftPhotography Theme' ); /*Genesis Sample Theme*/
-define( 'CHILD_THEME_URL', 'http://www.diycraftphotography.com' );
+define( 'CHILD_THEME_URL', 'https://www.diycraftphotography.com' );
 
 // Add Viewport meta tag for mobile browsers
 add_action( 'genesis_meta', 'sample_viewport_meta_tag' );
 function sample_viewport_meta_tag() {
-	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>'; 
+	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
 }
 
 /** Adding custom Favicon */
@@ -33,7 +33,7 @@ add_filter( 'pre_get_posts', 'be_archive_query' );
  *
  * Sets all archives to 27 per page
  * @since 1.0.0
- * @link http://www.billerickson.net/customize-the-wordpress-query/
+ * @link https://www.billerickson.net/customize-the-wordpress-query/
  *
  * @param object $query
  */
@@ -46,12 +46,12 @@ function be_archive_query( $query ) {
 /*Clickable Header */
 function clickable_header() {
     ?>
-    <div id="pixel"><a href="http://diycraftphotography.com"><img src="http://diycraftphotography.com/siteart/pixel.png"/></div></a>
+    <div id="pixel"><a href="https://diycraftphotography.com"><img src="https://diycraftphotography.com/siteart/pixel.png"/></div></a>
    <?php
 }
 add_action('genesis_header','clickable_header');
-remove_action('genesis_site_title', 'genesis_seo_site_title' ); 
-remove_action('genesis_site_description', 'genesis_seo_site_description' ); 
+remove_action('genesis_site_title', 'genesis_seo_site_title' );
+remove_action('genesis_site_description', 'genesis_seo_site_description' );
 
 // Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
@@ -129,7 +129,7 @@ function childtheme_authorbox() {?>
 				<?php the_author_meta( 'description' ); ?>
 				</br>
 				</br>
-				For more craft business advice, follow DIYCraftPhotography on <a href="http://twitter.com/diycraftphoto">Twitter</a>, <a href="https://plus.google.com/u/0/b/115023838006445745773/+Diycraftphotography/posts">Google+</a>, <a href="https://www.facebook.com/pages/DIY-Craft-Photography/460907297342171">Facebook</a>, and <a href="http://www.pinterest.com/diycraftphoto/">Pinterest</a>.
+				For more craft business advice, follow DIYCraftPhotography on <a href="https://twitter.com/diycraftphoto">Twitter</a>, <a href="https://plus.google.com/u/0/b/115023838006445745773/+Diycraftphotography/posts">Google+</a>, <a href="https://www.facebook.com/pages/DIY-Craft-Photography/460907297342171">Facebook</a>, and <a href="https://www.pinterest.com/diycraftphoto/">Pinterest</a>.
 				</div> <!-- end authorarea div -->
 	</div> <!-- end authorinfo div --><?php
 }
@@ -142,11 +142,11 @@ return '120';
 /* Modify the speak your mind title in comments */
 add_filter( 'comment_form_defaults', 'sp_comment_form_defaults' );
 function sp_comment_form_defaults( $defaults ) {
- 
+
 	$defaults['title_reply'] = __( 'Leave a Comment' );
 	return $defaults;
 	}
- 
+
 /*Adjusting YARPP image size added 3/2014 */
 /* Disabled YARPP 12/16/14 performance problems */
 /*

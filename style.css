@@ -3,18 +3,18 @@
 	Description: This is a custom theme made for DIYCraftPhotography.
 	Author: StudioPress
 	Author URI: http://www.studiopress.com/
- 
+
 	Version: 1.9
- 
+
 	Tags: black, orange, white, one-column, two-columns, three-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
- 
+
 	Template: genesis
 	Template Version: 1.9
- 
+
 	License: GPL-2.0+
-	License URI: http://www.opensource.org/licenses/gpl-license.php 
+	License URI: http://www.opensource.org/licenses/gpl-license.php
 */
- 
+
 
 /* Table of Contents
 
@@ -57,7 +57,7 @@
 01 Import Fonts
 ---------------------------------------------------------------------------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(//fonts.googleapis.com/css?family=Lato:400,700);
 
 
 /*
@@ -91,7 +91,7 @@ html {
 
 body {
 	background-color: #fff;
-	background-image:url('http://diycraftphotography.com/assets/linen_blue.jpg');
+	background-image:url('https://diycraftphotography.com/assets/linen_blue.jpg');
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1;
@@ -151,7 +151,7 @@ a img {
 
 	12 / 16 =		0.75rem
 	14 / 16 =		0.875rem
-	16 / 16 =		1rem	
+	16 / 16 =		1rem
 	18 / 16 =		1.125rem
 	20 / 16 =		1.25rem
 	24 / 16 =		1.5rem
@@ -159,12 +159,12 @@ a img {
 	36 / 16 =		2.25rem
 	42 / 16 =		2.625rem
 	48 / 16 =		3rem
-	
+
 	Further reading on the use and compatibility of rems:
-	
+
 	http://caniuse.com/rem
 	http://snook.ca/archives/html_and_css/font-size-with-rem
-	
+
 */
 
 /* 03a - Font Color ----------- */
@@ -191,7 +191,7 @@ a {
 }
 
 .genesis-nav-menu a {
-	color: #7c9eaa;	
+	color: #7c9eaa;
 }
 
 .genesis-nav-menu .current-menu-item a {
@@ -227,9 +227,9 @@ textarea {
 
 
 #menu-navigation a:hover {color:white;}
-#menu-navigation { 
+#menu-navigation {
 	font-family:'Droid Sans',Arial,Verdana,sans-serif;
-	font-size:13px; 
+	font-size:13px;
 	background-color:#212121;}
 
 
@@ -466,7 +466,7 @@ h2 a:visited,
 /* 04c - Header ----------- */
 
 #header {
-	background-image:url("http://diycraftphotography.com/wp-content/uploads/2013/09/diycraftphotography_banner_blaket2.jpg");
+	background-image:url("https://diycraftphotography.com/wp-content/uploads/2013/09/diycraftphotography_banner_blaket2.jpg");
 	min-height: 138px;
 	overflow: hidden;
 	padding-bottom: 0px; /* formerly 32 */
@@ -731,7 +731,7 @@ p.pages,
 
 .breadcrumb a {
 	text-decoration:none;
-	border-bottom:1px dotted;	
+	border-bottom:1px dotted;
 }
 
 /*
@@ -878,7 +878,7 @@ ul.genesis-nav-menu li.sfHover ul,
 
 
 .widget candy-social-icons {
-	background-color:#666;	
+	background-color:#666;
 }
 
 #widgetAd {
@@ -923,7 +923,7 @@ h6,
 	font-weight:normal;
 }
 
-h1 { 
+h1 {
 	font-size:30px;
 }
 
@@ -958,7 +958,7 @@ h2 {
 
 .entry-content a {
 	font-weight:bold;
-	border-bottom:1px dotted;	
+	border-bottom:1px dotted;
 }
 
 .entry-content a:hover {
@@ -1137,7 +1137,7 @@ label {
 ---------------------------------------------------------------------------------------------------- */
 
 #subscribe-email input {
-	padding:1rem;	
+	padding:1rem;
 }
 
 input,
@@ -1295,20 +1295,20 @@ p.wp-caption-text {
 
 /* Featured Post Grid Added 4/14
 ------------------------------------------------------------ */
- 
+
 .genesis-grid-even {
   float: right;
 	padding: 0 0 15px;
 	width: 48%;
 }
- 
+
 .genesis-grid-odd {
 	clear: both;
 	float: left;
 	padding: 0 0 15px ;
 	width: 48%;
 }
- 
+
 .genesis-grid-even,
 .genesis-grid-odd {
 	margin: 0 0 20px;
@@ -1334,23 +1334,23 @@ YARPP - added August 2013
 }
 
 .yarpp-related ul li {
-	line-height:1.5em;	
+	line-height:1.5em;
 }
 
 
 /* YARPP --  Added 3/2014 ---------------------------- */
 
-.yarpp-thumbnail { 
-	height: 200px; 
-	padding:0px; 
-	margin: 0px; 
+.yarpp-thumbnail {
+	height: 200px;
+	padding:0px;
+	margin: 0px;
 	border:none !important;
 	}
-	
+
 .yarpp-thumbnail img {
 }
-.yarpp-thumbnail-title { 
-	max-height: 4em !important; 
+.yarpp-thumbnail-title {
+	max-height: 4em !important;
 	}
 .yarpp-related h3 {
     font-size:14px;
@@ -1368,7 +1368,7 @@ YARPP - added August 2013
 .yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
 	overflow:visible !important;
 	margin-top: 5px !important;
-	font-size:.8em !important;	
+	font-size:.8em !important;
 }
 
 .yarpp-related img {
@@ -1376,7 +1376,7 @@ YARPP - added August 2013
 }
 
 .textwidget {
-	padding:15px;	
+	padding:15px;
 }
 
 .textwidget img {
@@ -1448,7 +1448,7 @@ Author Box - added March 2014
 }
 .authorinfo {
 	padding-left:112px;
-} 
+}
 
 /*
 11 Footer
@@ -1490,7 +1490,7 @@ Author Box - added March 2014
 
 .footer-widgets h4 {
 	color:#fff;
-} 
+}
 
 .footer-widgets p {
 	margin-bottom: 16px;
@@ -1533,16 +1533,16 @@ Author Box - added March 2014
 }
 
 /* Customizing the search bar Added 4/2014 */
- 
+
 input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
 input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
 input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
- 
+
 .search-form {
 	position: relative;
 }
- 
+
 .search-form input[type="submit"] {
 	position: absolute;
 	display: inline-block;
@@ -1557,11 +1557,11 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	right: 12px;
 	top: 10px;
 }
- 
+
 .search-form input[type="submit"]:hover {
 	color: lightblue;
 }
- 
+
 .site-header .search-form {
 	width: 189px;
 }
@@ -1581,25 +1581,25 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 
 	#wrap {
 		max-width: 960px;
-	}	
+	}
 
 }
 
 /* iPads (portrait) ----------- */
 
 @media only screen and (max-width: 768px) {
-	
+
 	#wrap {
 		padding: 0 5%;
 	}
-	
+
 	html, body {
 		font-size:1rem;
 		line-height:1em;
 	}
-	
+
 	h1, h2, h3 {
-		font-size:2.4em;	
+		font-size:2.4em;
 	}
 
 	.footer-widgets-1,
@@ -1617,53 +1617,53 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	#wrap #sidebar-alt {
 		width: 100%;
 	}
-	
+
 	/* doesnt work, trying to scale the bg image in the header */
 	#header {
 		background-repeat:no-repeat;
 		background-size:721px 86px;
 		background-position:0px -20px;
 	}
-	
+
 	#pixel {
 	width:721px;
 	height:66px;
 }
-	
+
 	#menu-navigation {
 		margin-top:-10px;
 	}
-	
-	
+
+
 	#title {
 		margin: 16px 0;
 		margin: 1rem 0;
 	}
-	
+
 	.entry-content ul li, .entry-content p {
 		font-size:1rem;
 	}
 	.entry-content img {
 		max-width:100%; height:auto;
 	}
-	
+
 	.wp-caption aligncenter {
 		max-width: 97.5%;
-		height: auto;		
+		height: auto;
 	}
-	
+
 	.wp-caption, .wp-caption-text {
 		max-width: 97.5%;
 		height: auto;
 		width: auto9; /* ie8 */
 	}
-	
+
 	.rpwe-block a {
 		font-size:1.6em;
 		line-height: 26px;
 	}
 
-	
+
 /*
 	.genesis-nav-menu li,
 	#footer .creds,
@@ -1678,7 +1678,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 		margin: 2rem auto 0;
 		width: 50%;
 	}
-	
+
 	.genesis-nav-menu,
 	#description,
 	#footer .creds,
@@ -1694,7 +1694,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 		padding: 1.25rem 1rem;
 	}
 
-	
+
 
 	.genesis-nav-menu li.right {
 		display: none;
